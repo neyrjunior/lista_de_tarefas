@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    text-align: center;
+}
+header input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: lightgray;
+    border: none;
+    border-bottom: 1px solid black;
+}
+header button {
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    cursor: pointer;
+}
+header button:hover {
+    background-color: rgb(9, 179, 9);
+}
+.risk {
+    text-decoration: line-through;
+}
